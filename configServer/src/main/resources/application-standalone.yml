@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: configServer
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///D:/projects_java/Aston/Stage%202/HW7/configServer/config/{application}/
+server:
+  port: 8888

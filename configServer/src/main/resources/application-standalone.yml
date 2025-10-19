@@ -5,6 +5,9 @@ spring:
     config:
       server:
         native:
-          search-locations: file:///D:/projects_java/Aston/Stage%202/HW7/configServer/config/{application}/
+          search-locations:
+            - file:///D:/projects_java/Aston/Stage%202/HW7/configServer/config/{application}/
+            - file:///D:/projects_java/Aston/Stage%202/HW7/configServer/config/eurekaCommonSettingsClient/
+            - file:///D:/projects_java/Aston/Stage%202/HW7/configServer/config/swaggerCommonSettings/
 server:
   port: 8888
